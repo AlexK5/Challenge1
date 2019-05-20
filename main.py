@@ -8,7 +8,7 @@ def isprime(n):
   return(1)
 x=2
 total=0
-while(x<3000):
+while x<3000:
   if isprime(x)==1:
     total+=x
   x+=1
